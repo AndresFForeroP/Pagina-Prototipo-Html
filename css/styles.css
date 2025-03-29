@@ -25,18 +25,47 @@
 header{
     display: flex;
 }
-header .opciones{
+header .boton-inicio{
     position: fixed;
     font-size: 0.9em;
     top: 1.4em;
     left: 19em;
-    color: white;
-    background-color: transparent;
 }
-header .opciones a{
+header .boton-como{
+    position: fixed;
+    font-size: 0.9em;
+    top: 1.4em;
+    left: 30em;
+}
+header .boton-apoyo{
+    position: fixed;
+    font-size: 0.9em;
+    top: 1.4em;
+    left: 47em;
+}
+header .boton-sobre{
+    position: fixed;
+    font-size: 0.9em;
+    top: 1.4em;
+    left: 60em;
+}
+header .boton-como a{
+    color: white;
+    text-decoration: none;
+}
+header .boton-inicio a{
     text-decoration: none;
     color: white;
 }
-header .opciones:focus{
-    background-color: aliceblue;
+header .boton-apoyo a{
+    text-decoration: none;
+    color: white;
+}
+header .boton-sobre a{
+    text-decoration: none;
+    color: white;
+}
+header .h1:focus{
+    color: crimson;
+    background-color: crimson;
 }
